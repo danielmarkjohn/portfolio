@@ -9,9 +9,9 @@ const settings = {
 const seo = {
   title: "Daniel Mark John's Portfolio",
   description:
-    "As a seasoned Software Architect, I am dedicated to building state-of-the-art applications that transform the digital landscape. With over 8 years of experience, My expertise spans across various domains, including IT & Cloud, Healthcare, Media & Communications Industries. Over the years, I have honed my skills in managing, leading, and developing software as a Senior Developer to Senior Architect across 4 prestigious organizations, including HPE | Concentrix Catalyst | Tata ELXSI | Accenture.",
+    "As a seasoned Software Developer, I am dedicated to building state-of-the-art applications that transform the digital landscape. With over 8 years of experience, My expertise spans across various domains, including IT & Cloud, Healthcare, Media & Communications Industries. Over the years, I have honed my skills in managing, leading, and developing software as a Senior Developer to Senior Architect across 4 prestigious organizations, including HPE | Concentrix Catalyst | Tata ELXSI | Accenture.",
   og: {
-    title: "Daniel Mark John's Portfolio",
+    title: "DMJ's Portfolio",
     type: "website",
     url: "https://beautiful-stroopwafel-1722a5.netlify.app/#/",
   },
@@ -21,9 +21,9 @@ const seo = {
 const greeting = {
   title: "Daniel Mark John",
   logo_name: "DanielMarkJohn",
-  nickname: "Lead & Architect | Web & Mobile",
+  nickname: "Lead Developer",
   subTitle:
-  "As a seasoned Software Architect, I am dedicated to building state-of-the-art applications that transform the digital landscape. With over 8 years of experience, My expertise spans across various domains, including IT & Cloud, Healthcare, Media & Communications Industries.",
+  "As a seasoned Software Developer, I am dedicated to building state-of-the-art applications that transform the digital landscape. With over 8 years of experience, My expertise spans across various domains, including IT & Cloud, Healthcare, Media & Communications Industries.",
   resumeLink: "https://www.linkedin.com/in/danielmarkjohn",
   portfolio_repository:
     "https://github.com/danielmarkjohn",
