@@ -8,6 +8,7 @@ import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
+import Games from "../pages/games/Games";
 
 export default class Main extends Component {
   render() {
@@ -66,6 +67,12 @@ export default class Main extends Component {
                   <Projects {...props} theme={this.props.theme} />
                 )}
               />
+              <Route
+                path="/games"
+                render={(props) => (
+                  <Games {...props} theme={this.props.theme} />
+                )}
+              />
             </Switch>
           </HashRouter>
         </div>
@@ -122,6 +129,12 @@ export default class Main extends Component {
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+                <Route
+                path="/games"
+                render={(props) => (
+                  <Games {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>
