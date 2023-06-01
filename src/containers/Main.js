@@ -9,6 +9,7 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Games from "../pages/games/Games";
+import Apps from "../pages/apps/Apps";
 
 export default class Main extends Component {
   render() {
@@ -131,10 +132,16 @@ export default class Main extends Component {
                   <Projects {...props} theme={this.props.theme} />
                 )}
               />
-                <Route
+              <Route
                 path="/games"
                 render={(props) => (
                   <Games {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/apps"
+                render={(props) => (
+                  <Apps {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>
