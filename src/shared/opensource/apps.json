@@ -25,6 +25,31 @@
                     "iconifyClass": "logos-react"
                 }
             ]
+        },        {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+            "name": "Web Config Generator",
+            "createdAt": "2023-03-06T16:26:54Z",
+            "url": "http://web-config-generator.s3-website-us-east-1.amazonaws.com/",
+            "description": "The Web Config Generator is a tool that allows users to generate configuration files for popular web development tools and frameworks. It provides an easy and intuitive interface to generate configuration files based on selected options.",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "HTML",
+                    "iconifyClass": "logos-html-5"
+                },
+                {
+                    "name": "CSS",
+                    "iconifyClass": "logos-css-3"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "React",
+                    "iconifyClass": "logos-react"
+                }
+            ]
         }
     ]
 }
